@@ -1,4 +1,5 @@
-const webSocket = new WebSocket("ws://localhost:3000");
+const webSocket = new WebSocket("https://basic-chat-app-57al.onrender.com");
+
 
 const mainContent = document.querySelector("#mainContent");
 const btnCreate = document.querySelector("#btnCreate");
